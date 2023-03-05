@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 4px 10px 10px 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.LogoImg {
+    display: flex;
+    padding-top: 14px;
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+}
+
+body {
+    background-color: rgb(95, 180, 233);
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(146, 226, 146);
+    border: 3px solid black;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: rgb(2, 46, 46);
+    color: azure;
+}
+
+header {
+    padding: 2px 0px 0px 0px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+nav ul li:hover {
+    background-color: rgb(233, 228, 236);
+    text-decoration: underline;
+    border-radius: 20px;
+}
+
+.Search-field {
+    display: flex;
+    gap: 20px;
+}
+
+.Search-field button {
+    padding: 10px;
+    border-radius: 18px;
+}
+
+input {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 18px;
+}
+
+.section-part {
+    display: flex;
+    align-items: center;
+}
+
+.Section-Part-Div {
+    width: 60%;
+    padding: 70px;
+}
+
+.Section-Part-Div h1 {
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+    color: rgb(221, 16, 57);
+}
+
+.Section-Part-Div h1 span {
+    color: rgb(3, 43, 45);
+    font-weight: 900;
+    padding: 0 15px;
+}
+
+.Section-Part-Div p {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.Section-Part-Div p span {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(26, 26, 244);
+}
+
+.Section-part-Img {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Section-part-Img img {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-radius: 200px;
+}
+
+.Section-part-Button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer {
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer ul li a img {
+    height: 50px;
+}
